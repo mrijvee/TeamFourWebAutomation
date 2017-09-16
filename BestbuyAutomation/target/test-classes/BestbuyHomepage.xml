@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Bestbuy" parallel="true">
+
+    <test name="Bestbuy Products">
+
+        <parameter name="browserName" value="firefox"/>
+        <parameter name="os" value="mac"/>
+        <parameter name="URL" value="https://www.bestbuy.com/"/>
+
+        <classes>
+            <class name="testbestbuyproduct.testBestbuyProduct"/>
+        </classes>
+    </test>
+</suite>
