@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Bestbuy]" parallel="methods">
+  <test name="Bestbuy Products(failed)" parallel="methods">
+    <parameter name="os" value="mac"/>
+    <parameter name="browserName" value="firefox"/>
+    <parameter name="URL" value="https://www.bestbuy.com/"/>
+    <classes>
+      <class name="testbestbuyproduct.testBestbuyProduct">
+        <methods>
+          <include name="buyIphoneX"/>
+          <include name="endingTheBrowser"/>
+          <include name="startingTheBrowser"/>
+        </methods>
+      </class> <!-- testbestbuyproduct.testBestbuyProduct -->
+    </classes>
+  </test> <!-- Bestbuy Products(failed) -->
+</suite> <!-- Failed suite [Bestbuy] -->
