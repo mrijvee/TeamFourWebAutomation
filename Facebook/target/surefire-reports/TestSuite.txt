@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 25.636 sec <<< FAILURE! - in TestSuite
+createPost(testpageobject.TestHomePage)  Time elapsed: 9.476 sec  <<< FAILURE!
+org.openqa.selenium.NoAlertPresentException: 
+No modal dialog is currently open
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LAPTOP-GI6MMR22', ip: '192.168.232.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_141'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\saha4\AppData\Local\Temp\rust_mozprofile.hQU1npcK3HAC, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=10.0, moz:processID=13788, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 4800db52-4563-4aee-8559-f0c7af04b551
+	at testpageobject.TestHomePage.createPost(TestHomePage.java:38)
+
